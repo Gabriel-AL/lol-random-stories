@@ -1,0 +1,10 @@
+{
+    "type": "arcane",
+    "format": "standAloneComplex",
+    "version": "0.0.1",
+    "data": {
+        "Rio": {
+            "id": "Rio"
+        }
+    }
+}
