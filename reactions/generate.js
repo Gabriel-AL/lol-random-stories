@@ -58,7 +58,6 @@ const getPersonList = function(){
 
 const getOnePersonFromList = function(list, resultList) {
     const onePersonIndex = getRandomInt(list.length-1);
-    console.log(onePersonIndex);
     const onePerson = list[onePersonIndex];
 
     return resultList.includes(onePerson) ? getOnePersonFromList(list, resultList) : onePerson;
